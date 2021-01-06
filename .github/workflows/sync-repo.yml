@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
+          ref: main
 
       - name: sync taobao_seckill
         uses: repo-sync/github-sync@v2
